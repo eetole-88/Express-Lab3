@@ -1,0 +1,30 @@
+{
+  "name": "assessment6a",
+  "version": "1.0.0",
+  "description": "Assessment 6A",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "start:dev": "nodemon src/index.ts",
+    "test": "jest",
+    "test:dev": "jest --watchAll --verbose"
+  },
+  "author": "Grand Circus Detroit",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^27.1.1",
+    "nodemon": "^2.0.12",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.9",
+    "@types/express": "^4.17.11",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
+  }
+}
